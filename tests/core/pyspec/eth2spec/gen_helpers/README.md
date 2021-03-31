@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Eth2 test generator helpers](#eth2-test-generator-helpers)
+  - [`gen_base`](#gen_base)
+  - [`gen_from_tests`](#gen_from_tests)
+  - [Test-case parts](#test-case-parts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Eth2 test generator helpers
 
 ## `gen_base`

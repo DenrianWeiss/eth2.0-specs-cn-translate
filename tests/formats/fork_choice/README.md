@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Fork choice tests](#fork-choice-tests)
+  - [Test case format](#test-case-format)
+    - [`meta.yaml`](#metayaml)
+    - [`anchor_state.ssz_snappy`](#anchor_statessz_snappy)
+    - [`anchor_block.ssz_snappy`](#anchor_blockssz_snappy)
+    - [`steps.yaml`](#stepsyaml)
+      - [`on_tick` execution step](#on_tick-execution-step)
+      - [`on_attestation` execution step](#on_attestation-execution-step)
+      - [`on_block` execution step](#on_block-execution-step)
+      - [Checks step](#checks-step)
+    - [`attestation_<32-byte-root>.ssz_snappy`](#attestation_32-byte-rootssz_snappy)
+    - [`block_<32-byte-root>.ssz_snappy`](#block_32-byte-rootssz_snappy)
+  - [Condition](#condition)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Fork choice tests
 
 The aim of the fork choice tests is to provide test coverage of the various components of the fork choice.

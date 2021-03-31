@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [以太坊 2.0 规范](#%E4%BB%A5%E5%A4%AA%E5%9D%8A-20-%E8%A7%84%E8%8C%83)
+  - [翻译说明](#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)
+  - [规范](#%E8%A7%84%E8%8C%83)
+    - [第 0 阶段（创世阶段）](#%E7%AC%AC-0-%E9%98%B6%E6%AE%B5%E5%88%9B%E4%B8%96%E9%98%B6%E6%AE%B5)
+    - [牵牛星(Altair)分叉](#%E7%89%B5%E7%89%9B%E6%98%9Faltair%E5%88%86%E5%8F%89)
+    - [主链合并](#%E4%B8%BB%E9%93%BE%E5%90%88%E5%B9%B6)
+    - [分片](#%E5%88%86%E7%89%87)
+    - [规范 中包括的附加文件包括:](#%E8%A7%84%E8%8C%83-%E4%B8%AD%E5%8C%85%E6%8B%AC%E7%9A%84%E9%99%84%E5%8A%A0%E6%96%87%E4%BB%B6%E5%8C%85%E6%8B%AC)
+  - [适用于客户端实现的额外规范](#%E9%80%82%E7%94%A8%E4%BA%8E%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%A2%9D%E5%A4%96%E8%A7%84%E8%8C%83)
+  - [设计目标](#%E8%AE%BE%E8%AE%A1%E7%9B%AE%E6%A0%87)
+  - [Useful external resources](#useful-external-resources)
+  - [对规范贡献者可能有用的资源](#%E5%AF%B9%E8%A7%84%E8%8C%83%E8%B4%A1%E7%8C%AE%E8%80%85%E5%8F%AF%E8%83%BD%E6%9C%89%E7%94%A8%E7%9A%84%E8%B5%84%E6%BA%90)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 以太坊 2.0 规范
 
 [![Join the chat at https://discord.gg/qGpsxSA](https://img.shields.io/badge/chat-on%20discord-blue.svg)](https://discord.gg/qGpsxSA) [![Join the chat at https://gitter.im/ethereum/sharding](https://badges.gitter.im/ethereum/sharding.svg)](https://gitter.im/ethereum/sharding?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
